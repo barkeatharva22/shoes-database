@@ -11,7 +11,14 @@ export default function Footer() {
         <span>TikTok</span>
       </div>
 
-      <p>© 2026 FYNTRIX</p>
+      <p
+        style={{
+          fontSize: "0.75rem",
+          color: "rgba(240,240,240,0.3)"
+        }}
+      >
+        © 2026 FYNTRIX
+      </p>
     </footer>
   );
 }
